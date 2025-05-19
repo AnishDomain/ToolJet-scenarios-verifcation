@@ -18,7 +18,7 @@ Scenarios covered for the site:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/AnishDomain/saucedemo-automation.git
+   git clone https://github.com/AnishDomain/ToolJet-scenarios-verifcation.git
    cd saucedemo-automation
 
 
