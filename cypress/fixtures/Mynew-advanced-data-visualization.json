@@ -1,0 +1,1597 @@
+{
+  "app": [
+    {
+      "definition": {
+        "appV2": {
+          "type": "front-end",
+          "id": "b02664d8-1048-4a25-9f17-aea66be1dc99",
+          "name": "Advanced data visualization",
+          "slug": "b02664d8-1048-4a25-9f17-aea66be1dc99",
+          "isPublic": false,
+          "isMaintenanceOn": false,
+          "icon": "draghandle",
+          "organizationId": "8134278d-c3d8-4075-92a6-7b5aa049a226",
+          "currentVersionId": null,
+          "userId": "e66980dd-867e-44d7-9e60-992d2890c507",
+          "workflowApiToken": null,
+          "workflowEnabled": false,
+          "createdAt": "2025-05-19T07:04:49.559Z",
+          "creationMode": "DEFAULT",
+          "updatedAt": "2025-05-19T07:04:49.918Z",
+          "editingVersion": {
+            "id": "13361291-7d81-4452-9e09-6b46a24f594f",
+            "name": "v1",
+            "definition": null,
+            "globalSettings": {
+              "hideHeader": true,
+              "appInMaintenance": false,
+              "canvasMaxWidth": 100,
+              "canvasMaxWidthType": "%",
+              "canvasMaxHeight": 2400,
+              "canvasBackgroundColor": "#edeff5",
+              "backgroundFxQuery": "",
+              "appMode": "auto"
+            },
+            "pageSettings": {
+              "properties": {
+                "disableMenu": {
+                  "value": "{{true}}",
+                  "fxActive": false
+                }
+              }
+            },
+            "showViewerNavigation": false,
+            "homePageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+            "appId": "b02664d8-1048-4a25-9f17-aea66be1dc99",
+            "currentEnvironmentId": "d4110ff0-508c-48d6-85e5-29b41fe4b0cb",
+            "promotedFrom": null,
+            "createdAt": "2025-05-19T07:04:49.573Z",
+            "updatedAt": "2025-05-19T07:04:49.906Z"
+          },
+          "components": [
+            {
+              "id": "5bdc9f38-c3e4-417f-97ab-a7321051952f",
+              "name": "text8",
+              "type": "Text",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": null,
+              "properties": {
+                "text": {
+                  "value": "This app uses weather data from <a href=\"https://open-meteo.com/\">Open-Meteo</a> and is intended for non-commercial purposes only. For commercial use, please visit their <a href=\"https://open-meteo.com/en/pricing\">pricing</a> page."
+                }
+              },
+              "general": {},
+              "styles": {
+                "textAlign": {
+                  "value": "center"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "6d9f9b34-197d-419c-81c4-4dcc1102d28d",
+                  "type": "desktop",
+                  "top": 1510,
+                  "left": 1,
+                  "width": 41,
+                  "height": 40,
+                  "componentId": "5bdc9f38-c3e4-417f-97ab-a7321051952f",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                },
+                {
+                  "id": "c034b298-ce96-4f34-aaa1-91c084e26797",
+                  "type": "mobile",
+                  "top": 1510,
+                  "left": 1,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "5bdc9f38-c3e4-417f-97ab-a7321051952f",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "0173c4c7-f150-4f9d-af15-ee2230c42b6a",
+              "name": "text4",
+              "type": "Text",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": null,
+              "properties": {
+                "text": {
+                  "value": "Location 2"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textSize": {
+                  "value": "24"
+                },
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                },
+                "textAlign": {
+                  "value": "left"
+                },
+                "textIndent": {
+                  "value": "10"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "3ad20586-26c6-4d7f-a905-cfcea762dddd",
+                  "type": "mobile",
+                  "top": 130,
+                  "left": 1,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "0173c4c7-f150-4f9d-af15-ee2230c42b6a",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                },
+                {
+                  "id": "5854ac9d-656f-4236-91f5-6788d3595dda",
+                  "type": "desktop",
+                  "top": 90,
+                  "left": 23,
+                  "width": 19,
+                  "height": 50,
+                  "componentId": "0173c4c7-f150-4f9d-af15-ee2230c42b6a",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "38a79813-f0cf-45f9-8d7c-045932e9a125",
+              "name": "text3",
+              "type": "Text",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": null,
+              "properties": {
+                "text": {
+                  "value": "Location 1"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textSize": {
+                  "value": "24"
+                },
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                },
+                "verticalAlignment": {
+                  "value": "center"
+                },
+                "textAlign": {
+                  "value": "left"
+                },
+                "textIndent": {
+                  "value": "10"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "8cb8a355-6bc2-4b22-b55e-57ed0d6eac33",
+                  "type": "desktop",
+                  "top": 90,
+                  "left": 2,
+                  "width": 19,
+                  "height": 50,
+                  "componentId": "38a79813-f0cf-45f9-8d7c-045932e9a125",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                },
+                {
+                  "id": "78977f6c-5142-42a5-94d5-b7fe0c50b6b8",
+                  "type": "mobile",
+                  "top": 90,
+                  "left": 1,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "38a79813-f0cf-45f9-8d7c-045932e9a125",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "844460d0-1eb8-4d09-a1bc-f8a5041044c1",
+              "name": "chart1",
+              "type": "Chart",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": null,
+              "properties": {
+                "title": {
+                  "value": ""
+                },
+                "plotFromJson": {
+                  "value": "{{true}}"
+                },
+                "loadingState": {
+                  "value": "{{queries.getWeather1.isLoading}}",
+                  "fxActive": true
+                },
+                "jsonDescription": {
+                  "value": "{{JSON.stringify(queries.getWeather1.data.heatmapData)}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "padding": {
+                  "value": "10"
+                },
+                "borderRadius": {
+                  "value": "{{0}}",
+                  "fxActive": false
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "0a6fa864-41c7-4cc0-afc3-ae170df071a9",
+                  "type": "desktop",
+                  "top": 480,
+                  "left": 1,
+                  "width": 20,
+                  "height": 280,
+                  "componentId": "844460d0-1eb8-4d09-a1bc-f8a5041044c1",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                },
+                {
+                  "id": "4e014c7c-6b96-4de3-80d7-18eb11178502",
+                  "type": "mobile",
+                  "top": 750,
+                  "left": 0,
+                  "width": 20,
+                  "height": 400,
+                  "componentId": "844460d0-1eb8-4d09-a1bc-f8a5041044c1",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "bcfcf52f-d2de-4d73-8a2c-aaa734a91952",
+              "name": "chart3",
+              "type": "Chart",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": null,
+              "properties": {
+                "title": {
+                  "value": ""
+                },
+                "plotFromJson": {
+                  "value": "{{true}}"
+                },
+                "loadingState": {
+                  "value": "{{queries.getWeather2.isLoading}}",
+                  "fxActive": true
+                },
+                "jsonDescription": {
+                  "value": "{{JSON.stringify(queries.getWeather2.data.heatmapData)}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "padding": {
+                  "value": "10"
+                },
+                "borderRadius": {
+                  "value": "{{0}}"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "25ebab47-b29a-480b-a3a8-61e3b2e15dd2",
+                  "type": "mobile",
+                  "top": 750,
+                  "left": 0,
+                  "width": 20,
+                  "height": 400,
+                  "componentId": "bcfcf52f-d2de-4d73-8a2c-aaa734a91952",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                },
+                {
+                  "id": "88299195-0427-4955-baba-8906abba4718",
+                  "type": "desktop",
+                  "top": 480,
+                  "left": 22,
+                  "width": 20,
+                  "height": 280,
+                  "componentId": "bcfcf52f-d2de-4d73-8a2c-aaa734a91952",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "6a86b621-9983-4b7a-b228-9407e7156b2f",
+              "name": "chart4",
+              "type": "Chart",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": null,
+              "properties": {
+                "title": {
+                  "value": ""
+                },
+                "plotFromJson": {
+                  "value": "{{true}}"
+                },
+                "loadingState": {
+                  "value": "{{queries.getWeather2.isLoading}}",
+                  "fxActive": true
+                },
+                "jsonDescription": {
+                  "value": "{{JSON.stringify(queries.getWeather2.data.contourData)}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "padding": {
+                  "value": "10"
+                },
+                "borderRadius": {
+                  "value": "{{0}}"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "b878dd7f-2194-46f2-859b-beb2a396a460",
+                  "type": "mobile",
+                  "top": 560,
+                  "left": 0,
+                  "width": 20,
+                  "height": 400,
+                  "componentId": "6a86b621-9983-4b7a-b228-9407e7156b2f",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                },
+                {
+                  "id": "4b06de3d-5bea-493c-b5a8-60a2833b9e6e",
+                  "type": "desktop",
+                  "top": 760,
+                  "left": 22,
+                  "width": 20,
+                  "height": 280,
+                  "componentId": "6a86b621-9983-4b7a-b228-9407e7156b2f",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "9936806d-10e2-4e20-8bf3-f6b083f05322",
+              "name": "chart5",
+              "type": "Chart",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": null,
+              "properties": {
+                "data": {
+                  "value": "{{queries.runjs1.data}}"
+                },
+                "plotFromJson": {
+                  "value": "{{true}}"
+                },
+                "jsonDescription": {
+                  "value": "{{JSON.stringify({\n  data: [\n    queries.getWeather1.data.lineChartData,\n    queries.getWeather2.data.lineChartData,\n  ],\n})}}"
+                },
+                "barmode": {
+                  "value": "relative"
+                },
+                "title": {
+                  "value": ""
+                },
+                "loadingState": {
+                  "fxActive": true,
+                  "value": "{{queries.getWeather1.isLoading || queries.getWeather2.isLoading}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "padding": {
+                  "value": "30"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "39cdb6cb-30e1-468f-8636-91364a341a0a",
+                  "type": "mobile",
+                  "top": 930,
+                  "left": 7,
+                  "width": 20,
+                  "height": 400,
+                  "componentId": "9936806d-10e2-4e20-8bf3-f6b083f05322",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                },
+                {
+                  "id": "3ec7f058-a756-4466-b4ac-342908d1c309",
+                  "type": "desktop",
+                  "top": 1110,
+                  "left": 1,
+                  "width": 41,
+                  "height": 400,
+                  "componentId": "9936806d-10e2-4e20-8bf3-f6b083f05322",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "2f1af6ea-66d8-47fd-8a0b-379d610bf051",
+              "name": "text1",
+              "type": "Text",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": "08e842fa-ef59-4e0a-a772-e87c5926c055",
+              "properties": {
+                "text": {
+                  "value": "<div style=\"font-weight: 600;\">Advanced data visualization</div>"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textColor": {
+                  "value": "#000",
+                  "fxActive": false
+                },
+                "textSize": {
+                  "value": "{{20}}"
+                },
+                "textAlign": {
+                  "value": "right"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "2c8fa1a2-cbbc-4fc2-8019-f8aee21629b0",
+                  "type": "desktop",
+                  "top": 10,
+                  "left": 23,
+                  "width": 19,
+                  "height": 40,
+                  "componentId": "2f1af6ea-66d8-47fd-8a0b-379d610bf051",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "60df3fa3-1820-4256-b0f5-74614293fb41",
+              "name": "text2",
+              "type": "Text",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": "08e842fa-ef59-4e0a-a772-e87c5926c055",
+              "properties": {
+                "text": {
+                  "value": "B R A N D"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textColor": {
+                  "value": "#000",
+                  "fxActive": false
+                },
+                "textSize": {
+                  "value": "{{24}}"
+                },
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "letterSpacing": {
+                  "value": "{{0}}"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "9348c27d-8658-4b55-bd03-74d848b7f0a6",
+                  "type": "desktop",
+                  "top": 10,
+                  "left": 1,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "60df3fa3-1820-4256-b0f5-74614293fb41",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "08e842fa-ef59-4e0a-a772-e87c5926c055",
+              "name": "container1",
+              "type": "Container",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": null,
+              "properties": {},
+              "general": {},
+              "styles": {
+                "backgroundColor": {
+                  "value": "#ffffffff"
+                },
+                "borderRadius": {
+                  "value": "0"
+                },
+                "borderColor": {
+                  "value": "#ffffff00",
+                  "fxActive": false
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "3a092166-3a28-4077-858b-0b28c08a181a",
+                  "type": "desktop",
+                  "top": 0,
+                  "left": 0,
+                  "width": 43,
+                  "height": 70,
+                  "componentId": "08e842fa-ef59-4e0a-a772-e87c5926c055",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "f9874e0b-b015-4aed-9fa7-7647a649dcb7",
+              "name": "map2",
+              "type": "Map",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": null,
+              "properties": {
+                "initialLocation": {
+                  "value": "{{({\n  lat: 48.8575475,\n  lng: 2.3513765,\n})}}"
+                },
+                "defaultMarkers": {
+                  "value": "{{ [] }}"
+                },
+                "polygonPoints": {
+                  "value": "{{ [] }}"
+                },
+                "addNewMarkers": {
+                  "value": "{{false}}"
+                }
+              },
+              "general": {},
+              "styles": {},
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "81e930f7-0d93-4c79-b22b-a1d7ef755fa7",
+                  "type": "mobile",
+                  "top": 0,
+                  "left": 0,
+                  "width": 16,
+                  "height": 420,
+                  "componentId": "f9874e0b-b015-4aed-9fa7-7647a649dcb7",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                },
+                {
+                  "id": "0dea2271-186c-4296-a1f7-e6bbd4a69b91",
+                  "type": "desktop",
+                  "top": 140,
+                  "left": 22,
+                  "width": 20,
+                  "height": 270,
+                  "componentId": "f9874e0b-b015-4aed-9fa7-7647a649dcb7",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "bcdfc911-186a-4d0f-998a-3b6fb25d37df",
+              "name": "map1",
+              "type": "Map",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": null,
+              "properties": {
+                "initialLocation": {
+                  "value": "{{({\n  lat: 51.5072178,\n  lng: -0.1275862,\n})}}"
+                },
+                "defaultMarkers": {
+                  "value": "{{ [] }}"
+                },
+                "polygonPoints": {
+                  "value": "{{ [] }}"
+                },
+                "addNewMarkers": {
+                  "value": "{{false}}"
+                }
+              },
+              "general": {},
+              "styles": {},
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "daf2647c-72ff-44d8-a347-c063a43a78db",
+                  "type": "desktop",
+                  "top": 140,
+                  "left": 1,
+                  "width": 20,
+                  "height": 270,
+                  "componentId": "bcdfc911-186a-4d0f-998a-3b6fb25d37df",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                },
+                {
+                  "id": "917e8e27-4316-483c-9b40-fac9847883df",
+                  "type": "mobile",
+                  "top": 0,
+                  "left": 0,
+                  "width": 16,
+                  "height": 420,
+                  "componentId": "bcdfc911-186a-4d0f-998a-3b6fb25d37df",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "fc0eb410-23cd-4889-bd8c-4883ffd5141b",
+              "name": "chart2",
+              "type": "Chart",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": null,
+              "properties": {
+                "title": {
+                  "value": ""
+                },
+                "plotFromJson": {
+                  "value": "{{true}}"
+                },
+                "loadingState": {
+                  "value": "{{queries.getWeather1.isLoading}}"
+                },
+                "jsonDescription": {
+                  "value": "{{JSON.stringify(queries.getWeather1.data.contourData)}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "padding": {
+                  "value": "10"
+                },
+                "borderRadius": {
+                  "value": "{{0}}"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "5a17db3f-fb1a-4831-9d59-877dee58f8b2",
+                  "type": "desktop",
+                  "top": 760,
+                  "left": 1,
+                  "width": 20,
+                  "height": 280,
+                  "componentId": "fc0eb410-23cd-4889-bd8c-4883ffd5141b",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                },
+                {
+                  "id": "e68dbefb-4738-4321-8dae-227dde3c0a77",
+                  "type": "mobile",
+                  "top": 560,
+                  "left": 0,
+                  "width": 20,
+                  "height": 400,
+                  "componentId": "fc0eb410-23cd-4889-bd8c-4883ffd5141b",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "966fad2a-e05c-4070-be47-644b61f6767f",
+              "name": "text7",
+              "type": "Text",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": null,
+              "properties": {
+                "text": {
+                  "value": "7-day GMT forecast comparison between Location 1 & Location 2"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textSize": {
+                  "value": "20"
+                },
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "4cb2e9c3-8ed9-4847-921d-0a7217c0b5bc",
+                  "type": "mobile",
+                  "top": 170,
+                  "left": 1,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "966fad2a-e05c-4070-be47-644b61f6767f",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                },
+                {
+                  "id": "548c1bd5-ab00-45e9-a224-74f878ae6de5",
+                  "type": "desktop",
+                  "top": 1070,
+                  "left": 1,
+                  "width": 41,
+                  "height": 40,
+                  "componentId": "966fad2a-e05c-4070-be47-644b61f6767f",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "8004a513-568e-439f-b051-549cd6ca7f33",
+              "name": "text5",
+              "type": "Text",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": null,
+              "properties": {
+                "text": {
+                  "value": "7-day GMT forecast for Location 1"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textSize": {
+                  "value": "20"
+                },
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                },
+                "textAlign": {
+                  "value": "left"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "6394bcdf-d404-4126-b61e-7896919cbf32",
+                  "type": "desktop",
+                  "top": 440,
+                  "left": 1,
+                  "width": 20,
+                  "height": 40,
+                  "componentId": "8004a513-568e-439f-b051-549cd6ca7f33",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                },
+                {
+                  "id": "0889dd2b-c68e-445d-9db2-bba48bce7c99",
+                  "type": "mobile",
+                  "top": 130,
+                  "left": 1,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "8004a513-568e-439f-b051-549cd6ca7f33",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "ebb1ed4e-a710-4a73-b30e-bd1de3309c2d",
+              "name": "text6",
+              "type": "Text",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": null,
+              "properties": {
+                "text": {
+                  "value": "7-day GMT forecast for Location 2"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textSize": {
+                  "value": "20"
+                },
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                },
+                "textAlign": {
+                  "value": "left"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "33e799d7-b66d-4b07-a8b0-16267f070c4d",
+                  "type": "mobile",
+                  "top": 170,
+                  "left": 1,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "ebb1ed4e-a710-4a73-b30e-bd1de3309c2d",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                },
+                {
+                  "id": "8853f53d-e48d-44fd-894a-dc2f2fc6f0e0",
+                  "type": "desktop",
+                  "top": 440,
+                  "left": 22,
+                  "width": 20,
+                  "height": 40,
+                  "componentId": "ebb1ed4e-a710-4a73-b30e-bd1de3309c2d",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "706cee03-5218-4be5-bcd2-aae83ccfaa7a",
+              "name": "icon1",
+              "type": "Icon",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": null,
+              "properties": {
+                "icon": {
+                  "value": "IconExternalLink"
+                }
+              },
+              "general": {
+                "tooltip": {
+                  "value": ""
+                }
+              },
+              "styles": {
+                "iconColor": {
+                  "value": "#1471dbff"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "dbd97dd7-a977-46a9-ac53-f672cc4c7cfa",
+                  "type": "mobile",
+                  "top": 90,
+                  "left": 19,
+                  "width": 5,
+                  "height": 48,
+                  "componentId": "706cee03-5218-4be5-bcd2-aae83ccfaa7a",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                },
+                {
+                  "id": "e9f4b76c-ee2e-480c-ab77-c9976154314c",
+                  "type": "desktop",
+                  "top": 100,
+                  "left": 1,
+                  "width": 1,
+                  "height": 30,
+                  "componentId": "706cee03-5218-4be5-bcd2-aae83ccfaa7a",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            },
+            {
+              "id": "5635b971-78fd-4b84-9449-ca96cc4188e5",
+              "name": "icon2",
+              "type": "Icon",
+              "pageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "parent": null,
+              "properties": {
+                "icon": {
+                  "value": "IconExternalLink"
+                }
+              },
+              "general": {
+                "tooltip": {
+                  "value": ""
+                }
+              },
+              "styles": {
+                "iconColor": {
+                  "value": "#1471dbff"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "layouts": [
+                {
+                  "id": "4d967670-410d-450b-bbc7-5a829a698086",
+                  "type": "desktop",
+                  "top": 100,
+                  "left": 22,
+                  "width": 1,
+                  "height": 30,
+                  "componentId": "5635b971-78fd-4b84-9449-ca96cc4188e5",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                },
+                {
+                  "id": "688d27d8-77cd-4b2d-8fde-11f14aded827",
+                  "type": "mobile",
+                  "top": 138,
+                  "left": 19,
+                  "width": 5,
+                  "height": 48,
+                  "componentId": "5635b971-78fd-4b84-9449-ca96cc4188e5",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-19T07:04:49.581Z"
+                }
+              ]
+            }
+          ],
+          "pages": [
+            {
+              "id": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "name": "Home",
+              "handle": "home",
+              "index": 1,
+              "disabled": false,
+              "hidden": false,
+              "icon": null,
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z",
+              "autoComputeLayout": false,
+              "appVersionId": "13361291-7d81-4452-9e09-6b46a24f594f",
+              "pageGroupIndex": 1,
+              "pageGroupId": null,
+              "isPageGroup": false
+            }
+          ],
+          "events": [
+            {
+              "id": "e542c55b-fb0b-410e-b8f4-756418adfacf",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "url": "{{components.map1.center.googleMapUrl}}",
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "actionId": "open-webpage",
+                "alertType": "info"
+              },
+              "sourceId": "706cee03-5218-4be5-bcd2-aae83ccfaa7a",
+              "target": "component",
+              "appVersionId": "13361291-7d81-4452-9e09-6b46a24f594f",
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z"
+            },
+            {
+              "id": "798534b8-e314-4e03-a500-00f84483fef4",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "url": "{{components.map2.center.googleMapUrl}}",
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "actionId": "open-webpage",
+                "alertType": "info"
+              },
+              "sourceId": "5635b971-78fd-4b84-9449-ca96cc4188e5",
+              "target": "component",
+              "appVersionId": "13361291-7d81-4452-9e09-6b46a24f594f",
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z"
+            },
+            {
+              "id": "b4302fb3-b4b9-4aa4-a70b-3f7577df6300",
+              "name": "onBoundsChange",
+              "index": 0,
+              "event": {
+                "eventId": "onBoundsChange",
+                "message": "Hello world!",
+                "queryId": "130cebe2-c7c0-4514-846a-5030219922eb",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "getWeather2",
+                "parameters": {}
+              },
+              "sourceId": "f9874e0b-b015-4aed-9fa7-7647a649dcb7",
+              "target": "component",
+              "appVersionId": "13361291-7d81-4452-9e09-6b46a24f594f",
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.849Z"
+            },
+            {
+              "id": "c0e85afa-52f5-498d-8665-4b9c6046c380",
+              "name": "onBoundsChange",
+              "index": 0,
+              "event": {
+                "eventId": "onBoundsChange",
+                "message": "Hello world!",
+                "queryId": "83edcb86-0dfd-4f81-9772-b42806525779",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "getWeather1",
+                "parameters": {}
+              },
+              "sourceId": "bcdfc911-186a-4d0f-998a-3b6fb25d37df",
+              "target": "component",
+              "appVersionId": "13361291-7d81-4452-9e09-6b46a24f594f",
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.865Z"
+            }
+          ],
+          "dataQueries": [
+            {
+              "id": "f6c44267-971c-4a05-add0-cf89c922836e",
+              "name": "Readme",
+              "options": {
+                "code": "/****************\n\n####\tAttribution and Usage Notice\n\nThis app utilizes weather data provided by Open-Meteo (https://open-meteo.com/). Please note that the usage of Open-Meteo's API for commercial purposes is not free.\n\n####\tNon-Commercial Use Only\n\nThis app is intended for non-commercial use only. If you intend to use this app for commercial purposes, please visit their pricing page (https://open-meteo.com/en/pricing) to select a plan and obtain your own API key.\n\nThank you for your understanding and compliance.\n\n****************/",
+                "parameters": []
+              },
+              "dataSourceId": "445be215-88f6-473f-821d-ef7a2a134397",
+              "appVersionId": "13361291-7d81-4452-9e09-6b46a24f594f",
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:49.581Z"
+            },
+            {
+              "id": "130cebe2-c7c0-4514-846a-5030219922eb",
+              "name": "getWeather2",
+              "options": {
+                "method": "get",
+                "url": "{{`https://api.open-meteo.com/v1/forecast?latitude=${components.map2.center.lat || 48.8575475}&longitude=${components.map2.center.lng || 2.3513765}&hourly=temperature_2m&forecast_days=7`}}",
+                "url_params": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "headers": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "body": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "json_body": null,
+                "body_toggle": false,
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "transformation": "const chartData = {\n  z: [],\n  x: [],\n  y: [],\n  name: \"Location 2\",\n  hovertemplate: \"%{y}, %{x} (%{z} ℃)\",\n  type: \"heatmap\",\n};\n\nconst dates = [];\nconst times = [];\nconst temperatures = data.hourly.temperature_2m;\n\ndata.hourly.time.forEach((timestamp) => {\n  const momentObj = moment(timestamp);\n  const date = momentObj.format(\"DD MMM\");\n  const time = momentObj.format(\"HH:00\");\n\n  if (!dates.includes(date)) {\n    dates.push(date);\n  }\n  if (!times.includes(time)) {\n    times.push(time);\n  }\n});\n\nconst chunkSize = 24;\nfor (let i = 0; i < temperatures.length; i += chunkSize) {\n  const chunk = temperatures.slice(i, i + chunkSize);\n  chartData.z.push(chunk);\n}\n\nchartData.y = dates;\nchartData.x = times;\n\nconst heatmapData = { data: [{ ...chartData, type: \"heatmap\" }] };\nconst contourData = { data: [{ ...chartData, type: \"contour\" }] };\nconst lineChartData = {\n  x: data.hourly.time,\n  y: data.hourly.temperature_2m,\n  type: \"scatter\",\n  hovertemplate: \"%{x} (%{y} ℃)\",\n  name: \"Location 2\",\n};\n\nreturn { heatmapData, contourData, lineChartData };",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "2ea07974-822a-45df-b452-f6345bf86477",
+              "appVersionId": "13361291-7d81-4452-9e09-6b46a24f594f",
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:52.420Z"
+            },
+            {
+              "id": "83edcb86-0dfd-4f81-9772-b42806525779",
+              "name": "getWeather1",
+              "options": {
+                "method": "get",
+                "url": "{{`https://api.open-meteo.com/v1/forecast?latitude=${components.map1.center.lat || 51.5072178}&longitude=${components.map1.center.lng || -0.1275862}&hourly=temperature_2m&forecast_days=7`}}",
+                "url_params": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "headers": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "body": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "json_body": null,
+                "body_toggle": false,
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "transformation": "const chartData = {\n  z: [],\n  x: [],\n  y: [],\n  name: \"Location 1\",\n  hovertemplate: \"%{y}, %{x} (%{z} ℃)\",\n  type: \"heatmap\",\n};\n\nconst dates = [];\nconst times = [];\nconst temperatures = data.hourly.temperature_2m;\n\ndata.hourly.time.forEach((timestamp) => {\n  const momentObj = moment(timestamp);\n  const date = momentObj.format(\"DD MMM\");\n  const time = momentObj.format(\"HH:00\");\n\n  if (!dates.includes(date)) {\n    dates.push(date);\n  }\n  if (!times.includes(time)) {\n    times.push(time);\n  }\n});\n\nconst chunkSize = 24;\nfor (let i = 0; i < temperatures.length; i += chunkSize) {\n  const chunk = temperatures.slice(i, i + chunkSize);\n  chartData.z.push(chunk);\n}\n\nchartData.y = dates;\nchartData.x = times;\n\nconst heatmapData = { data: [{ ...chartData, type: \"heatmap\" }] };\nconst contourData = { data: [{ ...chartData, type: \"contour\" }] };\nconst lineChartData = {\n  x: data.hourly.time,\n  y: data.hourly.temperature_2m,\n  type: \"scatter\",\n  hovertemplate: \"%{x} (%{y} ℃)\",\n  name: \"Location 1\",\n};\n\nreturn { heatmapData, contourData, lineChartData };",
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "2ea07974-822a-45df-b452-f6345bf86477",
+              "appVersionId": "13361291-7d81-4452-9e09-6b46a24f594f",
+              "createdAt": "2025-05-19T07:04:49.581Z",
+              "updatedAt": "2025-05-19T07:04:53.574Z"
+            }
+          ],
+          "dataSources": [
+            {
+              "id": "2ea07974-822a-45df-b452-f6345bf86477",
+              "name": "restapidefault",
+              "kind": "restapi",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "13361291-7d81-4452-9e09-6b46a24f594f",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-05-19T07:04:49.587Z",
+              "updatedAt": "2025-05-19T07:04:49.587Z"
+            },
+            {
+              "id": "445be215-88f6-473f-821d-ef7a2a134397",
+              "name": "runjsdefault",
+              "kind": "runjs",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "13361291-7d81-4452-9e09-6b46a24f594f",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-05-19T07:04:49.599Z",
+              "updatedAt": "2025-05-19T07:04:49.599Z"
+            },
+            {
+              "id": "82a28cc5-4591-4f56-aef7-475f83d99f7d",
+              "name": "runpydefault",
+              "kind": "runpy",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "13361291-7d81-4452-9e09-6b46a24f594f",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-05-19T07:04:49.606Z",
+              "updatedAt": "2025-05-19T07:04:49.606Z"
+            },
+            {
+              "id": "be441c6d-9ec7-48ee-9533-7be261590f1d",
+              "name": "tooljetdbdefault",
+              "kind": "tooljetdb",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "13361291-7d81-4452-9e09-6b46a24f594f",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-05-19T07:04:49.617Z",
+              "updatedAt": "2025-05-19T07:04:49.617Z"
+            },
+            {
+              "id": "cca12051-c593-4ec9-812f-8357aa35351e",
+              "name": "workflowsdefault",
+              "kind": "workflows",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "13361291-7d81-4452-9e09-6b46a24f594f",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-05-19T07:04:49.628Z",
+              "updatedAt": "2025-05-19T07:04:49.628Z"
+            }
+          ],
+          "appVersions": [
+            {
+              "id": "13361291-7d81-4452-9e09-6b46a24f594f",
+              "name": "v1",
+              "definition": null,
+              "globalSettings": {
+                "hideHeader": true,
+                "appInMaintenance": false,
+                "canvasMaxWidth": 100,
+                "canvasMaxWidthType": "%",
+                "canvasMaxHeight": 2400,
+                "canvasBackgroundColor": "#edeff5",
+                "backgroundFxQuery": "",
+                "appMode": "auto"
+              },
+              "pageSettings": {
+                "properties": {
+                  "disableMenu": {
+                    "value": "{{true}}",
+                    "fxActive": false
+                  }
+                }
+              },
+              "showViewerNavigation": false,
+              "homePageId": "6047f85c-45a7-4a7e-9f9c-1d200cf24c60",
+              "appId": "b02664d8-1048-4a25-9f17-aea66be1dc99",
+              "currentEnvironmentId": "d4110ff0-508c-48d6-85e5-29b41fe4b0cb",
+              "promotedFrom": null,
+              "createdAt": "2025-05-19T07:04:49.573Z",
+              "updatedAt": "2025-05-19T07:04:49.906Z"
+            }
+          ],
+          "appEnvironments": [
+            {
+              "id": "d4110ff0-508c-48d6-85e5-29b41fe4b0cb",
+              "organizationId": "8134278d-c3d8-4075-92a6-7b5aa049a226",
+              "name": "development",
+              "isDefault": false,
+              "priority": 1,
+              "enabled": true,
+              "createdAt": "2025-05-19T05:12:57.675Z",
+              "updatedAt": "2025-05-19T05:12:57.675Z"
+            },
+            {
+              "id": "256fe7b6-feea-4a1b-bce4-3d9a5b51ae52",
+              "organizationId": "8134278d-c3d8-4075-92a6-7b5aa049a226",
+              "name": "staging",
+              "isDefault": false,
+              "priority": 2,
+              "enabled": true,
+              "createdAt": "2025-05-19T05:12:57.675Z",
+              "updatedAt": "2025-05-19T05:12:57.675Z"
+            },
+            {
+              "id": "2adf7dc4-7ab1-4a13-9d94-11d7be4e44f5",
+              "organizationId": "8134278d-c3d8-4075-92a6-7b5aa049a226",
+              "name": "production",
+              "isDefault": true,
+              "priority": 3,
+              "enabled": true,
+              "createdAt": "2025-05-19T05:12:57.675Z",
+              "updatedAt": "2025-05-19T05:12:57.675Z"
+            }
+          ],
+          "dataSourceOptions": [
+            {
+              "id": "7049f48d-93e7-4630-bf26-05e990e49000",
+              "dataSourceId": "2ea07974-822a-45df-b452-f6345bf86477",
+              "environmentId": "256fe7b6-feea-4a1b-bce4-3d9a5b51ae52",
+              "options": null,
+              "createdAt": "2025-05-19T07:04:49.591Z",
+              "updatedAt": "2025-05-19T07:04:49.591Z"
+            },
+            {
+              "id": "7cb13cf6-b941-42a3-b119-9cd4204aadd8",
+              "dataSourceId": "2ea07974-822a-45df-b452-f6345bf86477",
+              "environmentId": "2adf7dc4-7ab1-4a13-9d94-11d7be4e44f5",
+              "options": null,
+              "createdAt": "2025-05-19T07:04:49.591Z",
+              "updatedAt": "2025-05-19T07:04:49.591Z"
+            },
+            {
+              "id": "0db41001-42ba-42c7-a9cf-ab6ec173872a",
+              "dataSourceId": "2ea07974-822a-45df-b452-f6345bf86477",
+              "environmentId": "d4110ff0-508c-48d6-85e5-29b41fe4b0cb",
+              "options": null,
+              "createdAt": "2025-05-19T07:04:49.591Z",
+              "updatedAt": "2025-05-19T07:04:49.591Z"
+            },
+            {
+              "id": "7b4d894c-b495-4641-8a61-d352bc8ad365",
+              "dataSourceId": "445be215-88f6-473f-821d-ef7a2a134397",
+              "environmentId": "256fe7b6-feea-4a1b-bce4-3d9a5b51ae52",
+              "options": null,
+              "createdAt": "2025-05-19T07:04:49.602Z",
+              "updatedAt": "2025-05-19T07:04:49.602Z"
+            },
+            {
+              "id": "2cdcfa75-ddfe-4dda-8efb-76917b6d2da0",
+              "dataSourceId": "445be215-88f6-473f-821d-ef7a2a134397",
+              "environmentId": "2adf7dc4-7ab1-4a13-9d94-11d7be4e44f5",
+              "options": null,
+              "createdAt": "2025-05-19T07:04:49.602Z",
+              "updatedAt": "2025-05-19T07:04:49.602Z"
+            },
+            {
+              "id": "34c02db3-1d52-44a5-8748-57f5845f0ead",
+              "dataSourceId": "445be215-88f6-473f-821d-ef7a2a134397",
+              "environmentId": "d4110ff0-508c-48d6-85e5-29b41fe4b0cb",
+              "options": null,
+              "createdAt": "2025-05-19T07:04:49.602Z",
+              "updatedAt": "2025-05-19T07:04:49.602Z"
+            },
+            {
+              "id": "16865bb7-5742-4f50-ba4a-43e2963e0a67",
+              "dataSourceId": "82a28cc5-4591-4f56-aef7-475f83d99f7d",
+              "environmentId": "d4110ff0-508c-48d6-85e5-29b41fe4b0cb",
+              "options": null,
+              "createdAt": "2025-05-19T07:04:49.610Z",
+              "updatedAt": "2025-05-19T07:04:49.610Z"
+            },
+            {
+              "id": "df7db799-455e-41b1-9cab-bc4a3cb398a9",
+              "dataSourceId": "82a28cc5-4591-4f56-aef7-475f83d99f7d",
+              "environmentId": "2adf7dc4-7ab1-4a13-9d94-11d7be4e44f5",
+              "options": null,
+              "createdAt": "2025-05-19T07:04:49.611Z",
+              "updatedAt": "2025-05-19T07:04:49.611Z"
+            },
+            {
+              "id": "6d5f2bcf-09e0-40e9-9ac6-39de49e9d984",
+              "dataSourceId": "82a28cc5-4591-4f56-aef7-475f83d99f7d",
+              "environmentId": "256fe7b6-feea-4a1b-bce4-3d9a5b51ae52",
+              "options": null,
+              "createdAt": "2025-05-19T07:04:49.611Z",
+              "updatedAt": "2025-05-19T07:04:49.611Z"
+            },
+            {
+              "id": "6713daad-70f3-4d0e-a9bf-57823ae0db8e",
+              "dataSourceId": "be441c6d-9ec7-48ee-9533-7be261590f1d",
+              "environmentId": "256fe7b6-feea-4a1b-bce4-3d9a5b51ae52",
+              "options": null,
+              "createdAt": "2025-05-19T07:04:49.622Z",
+              "updatedAt": "2025-05-19T07:04:49.622Z"
+            },
+            {
+              "id": "d9419529-9ac5-4199-8c57-7c3e7da84be6",
+              "dataSourceId": "be441c6d-9ec7-48ee-9533-7be261590f1d",
+              "environmentId": "2adf7dc4-7ab1-4a13-9d94-11d7be4e44f5",
+              "options": null,
+              "createdAt": "2025-05-19T07:04:49.622Z",
+              "updatedAt": "2025-05-19T07:04:49.622Z"
+            },
+            {
+              "id": "7393ddad-be67-4362-b48b-fe021cc945ff",
+              "dataSourceId": "be441c6d-9ec7-48ee-9533-7be261590f1d",
+              "environmentId": "d4110ff0-508c-48d6-85e5-29b41fe4b0cb",
+              "options": null,
+              "createdAt": "2025-05-19T07:04:49.622Z",
+              "updatedAt": "2025-05-19T07:04:49.622Z"
+            },
+            {
+              "id": "3f308e8b-8750-4adb-af78-2770f51bb587",
+              "dataSourceId": "cca12051-c593-4ec9-812f-8357aa35351e",
+              "environmentId": "256fe7b6-feea-4a1b-bce4-3d9a5b51ae52",
+              "options": null,
+              "createdAt": "2025-05-19T07:04:49.632Z",
+              "updatedAt": "2025-05-19T07:04:49.632Z"
+            },
+            {
+              "id": "e26aaef4-d194-4d76-88af-92148f0070bb",
+              "dataSourceId": "cca12051-c593-4ec9-812f-8357aa35351e",
+              "environmentId": "2adf7dc4-7ab1-4a13-9d94-11d7be4e44f5",
+              "options": null,
+              "createdAt": "2025-05-19T07:04:49.632Z",
+              "updatedAt": "2025-05-19T07:04:49.632Z"
+            },
+            {
+              "id": "71faed5e-ab85-47ec-8c5f-11026df32ea4",
+              "dataSourceId": "cca12051-c593-4ec9-812f-8357aa35351e",
+              "environmentId": "d4110ff0-508c-48d6-85e5-29b41fe4b0cb",
+              "options": null,
+              "createdAt": "2025-05-19T07:04:49.632Z",
+              "updatedAt": "2025-05-19T07:04:49.632Z"
+            }
+          ],
+          "schemaDetails": {
+            "multiPages": true,
+            "multiEnv": true,
+            "globalDataSources": true
+          }
+        }
+      }
+    }
+  ],
+  "tooljet_version": "3.12.1-ce"
+}
